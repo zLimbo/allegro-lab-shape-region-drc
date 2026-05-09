@@ -1,0 +1,2 @@
+setwindow pcb
+skill load "scripts/generate_shape_region_cases.il"
