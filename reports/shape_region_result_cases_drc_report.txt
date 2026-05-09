@@ -1,0 +1,99 @@
+DRC Error Report
+D:/pcb/allegro-lab-shape-region-drc/out/shape_region_result_cases_drc.brd
+Sat May  9 18:26:43 2026
+
+DRC Error Count Summary
+DRC Error Type,DRC Error Count
+Etch to Etch,43
+Physical Constraint,43
+Total DRC Errors,86
+
+Detailed DRC Errors
+Constraint Name,DRC Marker Location,DRC Subclass,Required Value,Actual Value,Constraint Source,Constraint Source Type,Element 1,Element 2
+Line to Shape Spacing,(550.0 530.0),TOP,21 MIL,10 MIL,SR015_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 1050.0),TOP,21 MIL,10 MIL,SR021_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 1570.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 2090.0),TOP,21 MIL,10 MIL,SR033_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 2610.0),TOP,22 MIL,10 MIL,SR039_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 3130.0),TOP,22 MIL,10 MIL,SR045_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 3650.0),TOP,22 MIL,10 MIL,SR051_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(550.0 4170.0),TOP,21 MIL,10 MIL,SR057_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 530.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 1050.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 1570.0),TOP,21 MIL,10 MIL,SR028_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 2090.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 2610.0),TOP,22 MIL,10 MIL,SR040_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 3130.0),TOP,22 MIL,10 MIL,SR046_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(1300.0 3650.0),TOP,22 MIL,10 MIL,SR052_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 530.0),TOP,21 MIL,10 MIL,SR017_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 1050.0),TOP,21 MIL,10 MIL,SR023_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 1570.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 2090.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 2610.0),TOP,22 MIL,10 MIL,SR041_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 3130.0),TOP,22 MIL,10 MIL,SR047_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2050.0 3650.0),TOP,22 MIL,10 MIL,SR053_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2789.5 1570.0),TOP,21 MIL,10 MIL,SR030_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2789.5 3650.0),TOP,21 MIL,10 MIL,SR054_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2800.0 530.0),TOP,21 MIL,10 MIL,SR018_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2800.0 1050.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2800.0 2090.0),TOP,21 MIL,10 MIL,SR036_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2800.0 2610.0),TOP,22 MIL,10 MIL,SR042_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(2800.0 3130.0),TOP,22 MIL,10 MIL,SR048_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 530.0),TOP,21 MIL,10 MIL,SR019_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 1050.0),TOP,21 MIL,10 MIL,SR025_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 1570.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 2090.0),TOP,21 MIL,10 MIL,SR037_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 2610.0),TOP,22 MIL,10 MIL,SR043_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 3130.0),TOP,22 MIL,10 MIL,SR049_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(3550.0 3650.0),TOP,21 MIL,10 MIL,SR055_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 530.0),TOP,21 MIL,10 MIL,SR020_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 1050.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 1570.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 2090.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 2610.0),TOP,22 MIL,10 MIL,SR044_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 3130.0),TOP,22 MIL,10 MIL,SR050_R2_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Line to Shape Spacing,(4300.0 3650.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Srd_Shape  Etch/Top",Vertical Line Segment "Srd_Line  Etch/Top"
+Minimum Neck Width,(539.5 530.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 1050.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 1570.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 2090.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 2610.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 3130.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 3650.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(539.5 4170.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 530.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 1050.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 1570.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 2090.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 2610.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 3130.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(1289.5 3650.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 530.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 1050.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 1570.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 2090.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 2610.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 3130.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2039.5 3650.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 530.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 1050.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 1570.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 2090.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 2610.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 3130.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(2789.5 3650.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 530.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 1050.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 1570.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 2090.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 2610.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 3130.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(3539.5 3650.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 530.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 1050.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 1570.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 2090.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 2610.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 3130.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+Minimum Neck Width,(4289.5 3650.0),TOP,5 MIL,1 MIL,DEFAULT,PHYSICAL CONSTRAINTS,Vertical Line Segment "Srd_Line  Etch/Top",
+
