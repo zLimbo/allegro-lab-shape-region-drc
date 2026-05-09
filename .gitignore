@@ -1,0 +1,6 @@
+out/
+*.lck
+*.jrl
+*.log
+*.dmp
+master.tag
