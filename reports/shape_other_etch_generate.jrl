@@ -1,0 +1,22 @@
+\t (00:00:02) allegro 24.1 S001 (4251327) [11/6/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sun May 10 12:50:52 2026
+\t (00:00:02)         Host=FISH User=z Pid=24480 CPUs=16
+\t (00:00:02) CmdLine= C:\Cadence\SPB_24.1\tools\bin\allegro.exe -expert -p D:\pcb\allegro-lab-shape-region-drc -nographic -j D:\pcb\allegro-lab-shape-region-drc\out\shape_other_etch_generate.jrl -s scripts\run_generate_shape_other_etch_cases.scr D:\pcb\allegro-lab-shape-region-drc\templates\blank_template.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/pcb/allegro-lab-shape-region-drc/templates/blank_template.brd
+\i (00:00:05) trapsize 29310
+\i (00:00:05) replay 'scripts`\run_generate_shape_other_etch_cases.scr' 
+\i (00:00:05) setwindow pcb 
+\i (00:00:05) skill 'load "scripts/generate_shape_other_etch_cases.il"' 
+\w (00:00:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:05) Lic Summary:
+[12:50:56.201000] Cdslmd servers:
+[12:50:56.201004] Feature usage summary:
+[12:50:56.201004] Allegro_Venture_PCB_Designer2
+[12:50:56.201004] PCB_design_studio
+[12:50:56.201004] Allegro_Venture_PCB_Designer
+[12:50:56.201004] Venture_PCB_Schematic
+
+\t (00:00:05)     Journal end - Sun May 10 12:50:56 2026
