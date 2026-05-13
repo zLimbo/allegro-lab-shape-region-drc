@@ -273,6 +273,15 @@ $mismatchText
 ## 9. 一句话结论
 
 在当前 static shape + shape-to-line 范围内，region 对 shape DRC 的影响不是对象整体进入区域后统一生效，而是更像附着在 Allegro 内部 DRC 代表点选择之后的局部约束覆盖：代表点的 shape 侧参考位置命中哪个 region，哪个 region 才有资格影响最终 spacing 约束。
+
+## 10. 对其他 Etch Object 的补充
+
+补充实验见 `docs/shape_other_etch_drc_logic_conclusion_zh.md`。该实验覆盖：
+
+- static shape 对 static shape：`Shape to Shape Spacing`
+- static shape 对 through via：`Shape to Thru Via Spacing`
+
+补充结果显示，上述两类 DRC 也会受 region cset 影响：局部 DRC 位置命中 region 时采用 region cset，局部 DRC 位置不命中 region 时回退 DEFAULT。因此，当前结论已不只限于 shape-cline，而可以谨慎扩展为 shape 相关 etch spacing DRC 的局部 region 覆盖模型。
 "@
 
 Set-Content -Encoding UTF8 -Path $OutMarkdown -Value $markdown

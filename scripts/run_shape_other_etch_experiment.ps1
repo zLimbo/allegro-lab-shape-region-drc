@@ -1,9 +1,19 @@
+param(
+  [string]$Allegro = 'C:\Cadence\SPB_24.1\tools\bin\allegro.exe'
+)
+
 $ErrorActionPreference = 'Stop'
 
 $Root = Split-Path -Parent $PSScriptRoot
-$Allegro = 'C:\Cadence\SPB_24.1\tools\bin\allegro.exe'
-$DbDoctor = 'C:\Cadence\SPB_24.1\tools\bin\dbdoctor.exe'
-$Report = 'C:\Cadence\SPB_24.1\tools\bin\report.exe'
+$ToolBin = Split-Path -Parent $Allegro
+$DbDoctor = Join-Path $ToolBin 'dbdoctor.exe'
+$Report = Join-Path $ToolBin 'report.exe'
+
+foreach ($tool in @($Allegro, $DbDoctor, $Report)) {
+  if (-not (Test-Path $tool)) {
+    throw "Required Allegro tool not found: $tool"
+  }
+}
 
 $Out = Join-Path $Root 'out'
 $Reports = Join-Path $Root 'reports'
