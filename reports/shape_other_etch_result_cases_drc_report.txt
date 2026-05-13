@@ -1,6 +1,7 @@
 DRC Error Report
 D:/pcb/allegro-lab-shape-region-drc/out/shape_other_etch_result_cases_drc.brd
-Sun May 10 12:50:58 2026
+Wed May 13 15:25:32 2026
+DRC state: Up to date
 
 DRC Error Count Summary
 DRC Error Type,DRC Error Count
@@ -14,8 +15,8 @@ Shape to Shape Spacing,(550.0 780.0),TOP,21 MIL,10 MIL,OE001_R1_CSET,NET SPACING
 Shape to Shape Spacing,(1310.0 780.0),TOP,21 MIL,10 MIL,OE002_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Other  Etch/Top",Filled Rectangle "Soe_Shape  Etch/Top"
 Shape to Shape Spacing,(2070.0 780.0),TOP,11 MIL,10 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Other  Etch/Top",Filled Rectangle "Soe_Shape  Etch/Top"
 Shape to Shape Spacing,(2830.0 780.0),TOP,21 MIL,10 MIL,OE004_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Other  Etch/Top",Filled Rectangle "Soe_Shape  Etch/Top"
-Shape to Thru Via Spacing,(550.0 1473.4),TOP,21 MIL,0 MIL,OE005_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Shape  Etch/Top",Via "Via  (540.0 1480.0) (Soe_Via)"
+Shape to Thru Via Spacing,(550.0 1486.6),TOP,21 MIL,0 MIL,OE005_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Shape  Etch/Top",Via "Via  (540.0 1480.0) (Soe_Via)"
 Shape to Thru Via Spacing,(1310.0 1473.4),TOP,21 MIL,0 MIL,OE006_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Shape  Etch/Top",Via "Via  (1300.0 1480.0) (Soe_Via)"
 Shape to Thru Via Spacing,(2070.0 1473.4),TOP,11 MIL,0 MIL,DEFAULT,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Shape  Etch/Top",Via "Via  (2060.0 1480.0) (Soe_Via)"
-Shape to Thru Via Spacing,(2830.0 1473.4),TOP,21 MIL,0 MIL,OE008_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Shape  Etch/Top",Via "Via  (2820.0 1480.0) (Soe_Via)"
+Shape to Thru Via Spacing,(2830.0 1486.6),TOP,21 MIL,0 MIL,OE008_R1_CSET,NET SPACING CONSTRAINTS,Filled Rectangle "Soe_Shape  Etch/Top",Via "Via  (2820.0 1480.0) (Soe_Via)"
 

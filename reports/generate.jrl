@@ -1,23 +1,22 @@
-\t (00:00:01) allegro 24.1 S001 (4251327) [11/6/2024] Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Sat May  9 18:26:38 2026
-\t (00:00:01)         Host=FISH User=z Pid=12592 CPUs=16
-\t (00:00:01) CmdLine= C:\Cadence\SPB_24.1\tools\bin\allegro.exe -expert -p . -nographic -j out\generate.jrl -s scripts\run_generate_shape_region_cases.scr out\smoke_create_board.brd
-\t (00:00:01) 
-\t (00:00:01) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: D:/pcb/allegro-lab-shape-region-drc/out/smoke_create_board.brd
+\t (00:00:02) allegro 25.1 S030 (4414069) [3/25/2026] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed May 13 15:25:10 2026
+\t (00:00:02)         Host=FISH User=z Pid=12880 CPUs=16
+\t (00:00:02) CmdLine= C:\Cadence\SPB_25.1\tools\bin\allegro.exe -expert -p D:\pcb\allegro-lab-shape-region-drc -nographic -j D:\pcb\allegro-lab-shape-region-drc\out\generate.jrl -s scripts\run_generate_shape_region_cases.scr D:\pcb\allegro-lab-shape-region-drc\templates\blank_template.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: D:/pcb/allegro-lab-shape-region-drc/templates/blank_template.brd
 \i (00:00:05) trapsize 29310
 \i (00:00:05) replay 'scripts`\run_generate_shape_region_cases.scr' 
 \i (00:00:05) setwindow pcb 
 \i (00:00:05) skill 'load "scripts/generate_shape_region_cases.il"' 
-\t (00:00:05) SRD: generating shape-region cases
-\t (00:00:05) SRD: saved out/shape_region_result_cases.brd
-\t (00:00:05) Lic Summary:
-[18:26:41.314712] Cdslmd servers:
-[18:26:41.839004] Feature usage summary:
-[18:26:41.839004] Allegro_Venture_PCB_Designer2
-[18:26:41.839004] PCB_design_studio
-[18:26:41.839004] Allegro_Venture_PCB_Designer
-[18:26:41.839004] Venture_PCB_Schematic
-
-\t (00:00:05)     Journal end - Sat May  9 18:26:41 2026
+\t (00:00:06) SRD: generating shape-region cases
+\t (00:00:06) SRD: saved out/shape_region_result_cases.brd
+\t (00:00:06) Lic Summary:
+[15:25:13.364505] Cdslmd servers:
+[15:25:13.888820] Feature usage summary:
+[15:25:13.888820] Allegro_Venture_PCB_Designer2  
+[15:25:13.888821] PCB_design_studio  
+[15:25:13.888821] Allegro_Venture_PCB_Designer  
+[15:25:13.888822] Venture_PCB_Schematic  
+\t (00:00:06)     Journal end - Wed May 13 15:25:13 2026
